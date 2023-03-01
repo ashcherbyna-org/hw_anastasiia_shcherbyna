@@ -8,6 +8,10 @@ driver = Chrome("drivers/chromedriver")
 
 
 def test_search():
+    """
+
+    :return: search result
+    """
     driver.get("https://makeup.com.ua/")
     driver.maximize_window()
     driver.implicitly_wait(5)
